@@ -2,4 +2,4 @@
 
 Cadastro, compra e venda de produtos com Angular e Materialize.
 
-#### INCOMPLETO
+#### ##WIP
