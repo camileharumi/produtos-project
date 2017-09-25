@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html ng-app="produtos">
+<head>
+	<title>Produtos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="node_modules/material-components-web/dist/material-components-web.css">
+	<link type="text/css" rel="stylesheet" href="bower_components/materialize/dist/css/materialize.min.css"  media="screen,projection"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	
+</head>
+<body>
+
+	<nav>
+    <div class="nav-wrapper blue-grey darken-4">
+      <a href="#" class="brand-logo right">Produtos</a>
+      <ul class="left hide-on-med-and-down">
+        <li><a href="#/dashboard">Início</a></li>
+        <li><a href="#/listagem">Produtos</a></li>
+        <li><a href="#/cadastro">Cadastro</a></li>
+      </ul>
+    </div>
+  </nav>
+
+	<div ng-view></div>
+
+	
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="lib/angular-route.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script src="bower_components/Waves/dist/waves.min.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <script src="bower_components/moment/locale/pt-br.js"></script>
+    <script src="bower_components/moment/min/moment-with-locales.min.js"></script>
+    <script src="bower_components/angular-nouislider/src/nouislider.min.js"></script>
+   
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="bower_components/materialize/dist/js/materialize.min.js"></script>
+
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="js/produtosService.js"></script>
+	<script type="text/javascript" src="js/cadastroController.js"></script>
+  <script type="text/javascript" src="js/listagemController.js"></script>
+
+
+</body>
+</html>

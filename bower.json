@@ -1,0 +1,25 @@
+{
+  "name": "produtos",
+  "description": "app produtos",
+  "main": "index.html",
+  "authors": [
+    "Camile Prado <camileharumi@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#^1.6.6"
+  },
+  "resolutions": {
+    "angular": "1.6.4",
+    "nouislider": "9.2.0"
+  }
+}

@@ -1,0 +1,28 @@
+<div class="container">
+	<!-- <div style="margin:15px;">
+		<button class="right btn waves-effect waves-light">teste</button>
+	</div> -->
+	<table class="bordered highlight responsive-table">
+		<thead>
+			<tr>
+				<th>Código</th>
+				<th>Nome</th>
+				<th>Preço</th>
+				<th>Estoque</th>
+				<th style="text-align: center;">Ações</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="p in produtos">
+				<td>{{p.codigo}}</td>
+				<td>{{p.nome}}</td>
+				<td>{{p.preco | currency: 'R$ '}}</td>
+				<td>{{p.estoque}}</td>
+				<td style="text-align: center;">
+					<button class="waves-effect waves-light btn light-blue darken-3" ng-click="efetuarCompra(p.codigo)">comprar</button>
+					<button class="waves-effect waves-light btn red accent-4" ng-click="efetuarVenda(p.codigo)">vender</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
